@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/drawable/button.xml" value="0.13" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.104" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.104" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout-small/activity_descricao_aditivos.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout-small/activity_descricao_disperssores.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout-small/activity_descricao_helices.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout-small/activity_descricao_masseiras.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout-small/activity_descricao_moinhos.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout-small/fragment_home.xml" value="1.1" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_aditivos2.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_descricao_aditivos.xml" value="0.33" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_descricao_disperssores.xml" value="0.1425925925925926" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_descricao_helices.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_descricao_masseiras.xml" value="0.33" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_descricao_moinhos.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_disperssores3.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_helices2.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_lista_disperssores.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_lista_masseiras2.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_main.xml" value="0.4603729603729604" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_masseiras2.xml" value="0.1" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_masseiras_item.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_masseiras_item2.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_moinhos2.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_recycler_masseiras2.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/activity_splash2.xml" value="0.28984375" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/aditivos_item.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/app_bar_main.xml" value="0.33" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/content_main.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/disperssores_item.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_buttons.xml" value="0.3" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_disperssores_item.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_gallery.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_inatitucional.xml" value="0.1" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_institucional.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_lista__masseiras.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_masseira_list.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_masseiras_item.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/fragment_slideshow.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/helices_item.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/masseiras_item.xml" value="0.1" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/moinhos_item.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/layout/nav_header_main.xml" value="0.5" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/menu/activity_main_drawer.xml" value="0.67" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/mipmap-anydpi-v26/ic_gmp.xml" value="0.104" />
+        <entry key="..\:/Users/Home/AndroidStudioProjects/GMPINDUSTRIAIS3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.104" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

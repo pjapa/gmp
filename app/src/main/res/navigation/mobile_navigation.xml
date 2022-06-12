@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.gmpindustriais.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_buttonsFragment"
+            app:destination="@id/buttonsFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_inatitucionalFragment"
+            app:destination="@id/inatitucionalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.gmpindustriais.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.gmpindustriais.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/buttonsFragment"
+        android:name="com.example.gmpindustriais.ButtonsFragment"
+        android:label="fragment_buttons"
+        tools:layout="@layout/fragment_buttons" >
+
+
+        <action
+            android:id="@+id/action_buttonsFragment_to_descricaoMasseiras"
+            app:destination="@id/descricaoMasseiras" />
+        <action
+            android:id="@+id/action_buttonsFragment_to_descricaoDisperssores"
+            app:destination="@id/descricaoDisperssores" />
+        <action
+            android:id="@+id/action_buttonsFragment_to_descricaoMoinhos"
+            app:destination="@id/descricaoMoinhos" />
+        <action
+            android:id="@+id/action_buttonsFragment_to_descricaoHelices"
+            app:destination="@id/descricaoHelices" />
+        <action
+            android:id="@+id/action_buttonsFragment_to_descricaoAditivos"
+            app:destination="@id/descricaoAditivos" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/inatitucionalFragment"
+        android:name="com.example.gmpindustriais.InatitucionalFragment"
+        android:label="fragment_institucional"
+        tools:layout="@layout/fragment_institucional" />
+    <activity
+        android:id="@+id/descricaoMasseiras"
+        android:name="com.example.gmpindustriais.DescricaoMasseiras"
+        android:label="activity_descricao_masseiras"
+        tools:layout="@layout/activity_descricao_masseiras" />
+    <activity
+        android:id="@+id/descricaoDisperssores"
+        android:name="com.example.gmpindustriais.DescricaoDisperssores"
+        android:label="activity_descricao_disperssores"
+        tools:layout="@layout/activity_descricao_disperssores" />
+    <activity
+        android:id="@+id/descricaoMoinhos"
+        android:name="com.example.gmpindustriais.DescricaoMoinhos"
+        android:label="activity_descricao_moinhos"
+        tools:layout="@layout/activity_descricao_moinhos" />
+    <activity
+        android:id="@+id/descricaoHelices"
+        android:name="com.example.gmpindustriais.DescricaoHelices"
+        android:label="activity_descricao_helices"
+        tools:layout="@layout/activity_descricao_helices" />
+    <activity
+        android:id="@+id/descricaoAditivos"
+        android:name="com.example.gmpindustriais.DescricaoAditivos"
+        android:label="activity_descricao_aditivos"
+        tools:layout="@layout/activity_descricao_aditivos" />
+</navigation>

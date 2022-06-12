@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/foto_helice"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/helice1"
+        android:layout_margin="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/nome_descrição"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descricão"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foto_helice"/>
+    <TextView
+        android:id="@+id/aplicações"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipicas Aplicações"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome_descrição"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

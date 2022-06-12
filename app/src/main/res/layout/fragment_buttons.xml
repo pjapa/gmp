@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.gmpindustriais.ButtonsFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="80dp"
+            app:lottie_rawRes="@raw/gmp3"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnmasseiras"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Masseiras"
+            android:textColor="#464646"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/animation_view" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btndisperssores"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Dispersores e Agitadores"
+            android:textColor="#464646"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnmasseiras" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnmoinhos"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Moinhos"
+            android:textColor="#464646"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btndisperssores" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnhelices"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Hélices"
+            android:textColor="#464646"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnmoinhos" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnestacao"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Estação de Aditivos"
+            android:textColor="#464646"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnhelices" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnreservatorios"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Reservatórios"
+            android:textColor="#464646"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnestacao" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnpneumatico"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Transporte Pneumático"
+            android:textColor="#464646"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnreservatorios" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnvacuo"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Desaerador á Vácuo"
+            android:textColor="#464646"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnpneumatico" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnenvase"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Dispositivo de Envase"
+            android:textColor="#464646"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnvacuo" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnestruturas"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:text="Estruturas Metálicas"
+            android:textColor="#464646"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnenvase" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gmpindustriais" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_gmp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GMPINDUSTRIAIS" >
+
+
+
+        <activity
+            android:name=".AditivosActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DescricaoAditivos"
+            android:exported="false" />
+        <activity
+            android:name=".DescricaoHelices"
+            android:exported="false" />
+        <activity
+            android:name=".HelicesActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DescricaoMoinhos"
+            android:exported="false" />
+        <activity
+            android:name=".MoinhosActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DescricaoDisperssores"
+            android:exported="false" />
+        <activity
+            android:name=".DescricaoMasseiras"
+            android:exported="false" />
+        <activity
+            android:name=".DisperssoresActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MasseirasActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".masseiras_item"
+            android:exported="false" />
+        <activity
+            android:name=".masseirasItemActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".recyclerMasseirasActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Recycler_masseirasActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Lista_MasseirasActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Lista_Disperssores"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GMPINDUSTRIAIS.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

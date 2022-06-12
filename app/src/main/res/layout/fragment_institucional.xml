@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/purple_200"
+    tools:context="com.example.gmpindustriais.InatitucionalFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:textColor="#5391c7"
+        android:text="A GMP INDUSTRIAIS possui a melhor e mais completa equipe técnica do mercado de implantações TURN KEY. O time GMP é composta por Técnicos e Engenheiros: Mecânicos, Elétricos, Civil, Segurança, Químicos, Processos, Administração, Meio Ambiente e Projetistas. A missão da GMP é reduzir os custos fixos de seus clientes, proporcionando melhoria de processos, economia de energia elétrica e matérias primas, bem como a durabilidade e baixa manutenção dos equipamentos; o que também constitui um dos principais fatores para a crescente presença no mercado."
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </TextView>
+
+</FrameLayout>

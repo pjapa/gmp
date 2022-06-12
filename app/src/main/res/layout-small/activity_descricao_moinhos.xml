@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.gmpindustriais.DescricaoMoinhos">
+
+    <TextView
+        android:id="@+id/descricacmoinhos"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_margin="6dp"
+        android:textColor="@color/white"
+        android:text="Os Moinhos Industriais da GMP podem ser utilizados para Moer,
+        Micronizar, Cisalhar, Diminuir, Unificar, Fundir, dentre outros processos
+        industriais.Os Moinhos industriais da GMP tem como suas Típicas Aplicações: Produtos Cosméticos, Produtos Farmacêuticas, Produtos Alimentícios,
+Tintas e vernizes, Massa corrida, Adesivo Plastico, Cola Plastica,Texturas,
+Revestimentos, Impermeabilizantes, Resinas, Polpa de frutas, Concentrado de
+Açai, Temperos, Complementos Automotivos, Ceras, Desmoldantes,
+Chocolates, Xaropes, Óleos Lubrificantes, Graxas, Papel e celulose,
+Fertilizantes, Aditivos, Inseticidas, Massa Polir, Colas, Adesivos, Isolantes
+líquidos, Plásticos líquidos, Produtos Biológicos, Produtos Agrícolas,
+Revestimentos de papel, plastisol, Gelcout, Mostarda, Maionese, Chocolate,
+emulsões asfálticas, aromatizantes, Primer, Lacas, dentre outros líquidos e pastosos."
+        android:textSize="16sp"
+        android:maxLines="40"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnmoinhos"
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="2dp"
+        android:text="Moinhos"
+        android:textColor="#464646"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descricacmoinhos"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
